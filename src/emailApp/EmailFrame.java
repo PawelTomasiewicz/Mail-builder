@@ -7,7 +7,12 @@ import java.awt.event.ActionListener;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class EmailFrame extends JFrame {
+/**
+ * @author Paweł Tomasiewicz on 09.02.2019
+ */
+
+public class EmailFrame extends JFrame
+{
     private JPanel panel;
     private JTextField textFieldName;
     private JLabel nameLable;
